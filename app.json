@@ -1,0 +1,36 @@
+{
+  "id": "83e69d93-4001-4f2a-a40c-cad8c99f4b6f",
+  "name": "pinewood wired Integration",
+  "publisher": "EBT",
+  "version": "1.0.0.0",
+  "brief": "pinewood wired Integration",
+  "description": "pinewood wired Integration",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {"id":"5ecfc871-5d82-43f1-9c54-59685e82318d","publisher":"LS Retail","name":"LS Central","version":"22.2.0.0"},
+    {"id":"c0e0b8bc-4315-446d-a735-b5e0e8b6ac2b","publisher":"LS Retail","name":"LS Central IN","version":"22.2.0.0"},
+    {"id":"2a0547fa-f60f-401d-b1fe-c7c4be8fb230","publisher":"LS Retail","name":"LS Central System App","version":"22.2.0.0"}
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "22.0.0.0",
+  "idRanges": [
+    {
+      "from": 60000,
+      "to": 61000
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "11.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
